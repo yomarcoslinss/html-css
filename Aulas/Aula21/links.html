@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font: normal 1em Inter;
+        }
+        a{
+            color:rgb(166, 0, 255);
+            text-decoration: none;
+        }
+        
+        a:visited{
+            color:rgb(101, 0, 155);
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: rgb(246, 105, 236);
+        }
+        
+        #github::after{
+            content: ' irá abrir o repositório das aulas no GitHub';
+            color: rgb(194, 194, 194);
+            font-size: 0.6em;
+        }
+        #youtube::after{
+            content: ' irá abrir o canal do professor Gustavo Guanabara';
+            color: rgb(194, 194, 194);
+            font-size: 0.6em;
+        }
+        
+        #website::after{
+            content: ' irá abrir o site da plataforma Curso em Vídeo';
+            color: rgb(194, 194, 194);
+            font-size: 0.6em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul type="circle">
+        <li><a id="github" target="_blank" href="https://gustavoguanabara.github.io/">Repositório GitHub</a></li>
+        <li><a id="youtube" target= "_blank" href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Canal do Youtube</a></li>
+        <li><a id="website" target="_blank" href="https://www.cursoemvideo.com/">Site do CursoEmVídeo</a></li>
+    </ul>
+</body>
+</html>

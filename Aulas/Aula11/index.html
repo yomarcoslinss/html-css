@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h2>Imagens dinâmicas</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente
+       aumente e diminua o tamanho do seu navegador </p>
+    
+    <picture>
+        <source media="(max-width:730px )" srcset="./imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1030px )" srcset="./imagens/foto-m.png" type="image/png">
+        <img src="./imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="./midia/estranged.mp3 " controls preload="metadata"></audio>
+    <h1>Outra maneira de reproduzir áudios</h1>
+    <audio preload="metadata"controls>
+        <source src="./midia/howcanigoon.mp3" type="audio/mpeg" >
+        <p>Infelizmente não foi possível localizar o áudio</p>
+    </audio>
+</body>
+</html>
