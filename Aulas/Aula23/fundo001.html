@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        *{
+            padding: 0em;
+            margin: 0em;
+        }
+
+        body{
+            background-image: url(./assets/wallpaper001.jpg);
+        }
+
+        div.quadrado{
+            display: inline-block;
+            background-color: lightgray;
+            border: 0.0625em solid black;
+            border-radius: 0.5em;
+            width: 18.75em;
+            height: 18.75em;
+        }
+
+        div#q1{
+            background-color: skyblue;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red)
+        }
+
+        div#q3{
+            background-image: url(./assets/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
