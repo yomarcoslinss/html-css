@@ -12,6 +12,16 @@
             font: normal 15pt Inter;
         }
 
+        .t:hover{
+            background-color: darkgray;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
         th, td {
             border: 1px solid purple;
             padding: 8px;
@@ -22,15 +32,20 @@
             background-color: pink;
             font-weight: bolder;
         }
+
+        .h:hover{       /* Cor azul nos homens */
+           background-color: rgb(84, 84, 255); 
+        }
     </style>
 </head>
 <body>
     <table>
+        <caption>Filmes Favoritos</caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th colspan="2">Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th class="t">Grupos</th>
+                <th class="t" colspan="2">Nomes</th>
+                <th class="t" colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
@@ -54,23 +69,23 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
-                <td colspan="2">Bruno Mendonça</td>
-                <td>Intocáveis</td>
-                <td>Amnésia</td>
-                <td>Gladiador</td>
+                <th class="h" rowspan="3">Homens</th>
+                <td class="h" colspan="2">Bruno Mendonça</td>
+                <td class="h">Intocáveis</td>
+                <td class="h">Amnésia</td>
+                <td class="h">Gladiador</td>
             </tr>
             <tr>
-                <td colspan="2">Daniel Lourenço</td>
-                <td>Wall-E</td>
-                <td>Oldboy</td>
-                <td>Dangal</td>
+                <td  class="h" colspan="2">Daniel Lourenço</td>
+                <td class="h">Wall-E</td>
+                <td class="h">Oldboy</td>
+                <td class="h">Dangal</td>
             </tr>
             <tr>
-                <td colspan="2">Fabiano Mota</td>
-                <td>Star Wars 5</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
+                <td colspan="2"  class="h">Fabiano Mota</td>
+                <td  class="h">Star Wars 5</td>
+                <td class="h">Taxi Driver</td>
+                <td class="h">Toy Story</td>
             </tr>
         </tbody>
     </table>
