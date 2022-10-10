@@ -20,8 +20,15 @@ Grandes telas: Acima de 1200px
 
     main{
         border: 2px solid black;
+        width: 90vw;
     }
 
+    main::after{
+        content: "Essa impressão foi feita através do site www.yomarcoslinss.com";
+        text-decoration: overline;
+        text-align: center;
+        display: block;
+    }
     main h1{
         text-shadow: none;
         color: black;
