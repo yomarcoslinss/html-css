@@ -11,8 +11,23 @@ Desktop: de 992px até 1200px
 Grandes telas: Acima de 1200px
 */
 
-@media print {
-    
+@media print { /* IMPRESSORA */
+    body{
+        background-image: url(../../assets/back-print.jpg); /* Desnecessário */
+        font-family: Inter, 'Courier New', Courier, monospace;
+        
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    img#print{display: block;}
+    img#phone{display: none;}
 }
 
 /* @media screen and (max-width: 600px){
@@ -23,3 +38,34 @@ Grandes telas: Acima de 1200px
 @media screen and (min-width: 600px) and (max-width: 768px) {
 
 } */
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+    body{
+        background-image: url(../../assets/back-tablet.jpg);
+    }
+    img#phone {display: none;}
+    img#tablet {display: block;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+    body{
+        background-image: url(../../assets/back-pc.jpg);
+    }
+    img#phone {display: none;}
+    img#pc {display: block;}
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS*/
+    body{
+        background-image: url(../../assets/back-tv.jpg);
+    }
+    img#phone {display: none;}
+    img#tv {display:block;}
+
+    main{
+        width: 700px;
+    }
+}
