@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Dispositivo na orientação vertical (portrait)*/
+
+body{
+    background-image: url(../assets/cev-portrait.jpg);
+    background-position: center bottom;
+}
