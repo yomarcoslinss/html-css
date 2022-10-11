@@ -36,7 +36,7 @@ section p{
 #bg {
     height: 200px;
     background-image: url(../assets/bg.jpg);
-    background-position: center left;
+    background-position: bottom left;
     background-size: cover;
     border-radius: 10px 10px 0px 0px;
 }
@@ -55,3 +55,4 @@ input {
     border-radius: 6px;
     border: none;
 }
+
