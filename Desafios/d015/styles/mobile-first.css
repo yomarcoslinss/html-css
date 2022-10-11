@@ -54,6 +54,13 @@ input {
     border: none;
 }
 
+input::placeholder{
+    position: relative;
+    font-size: 13pt;
+    left: -10%;
+}
+
+
 .borda {
     height: 50px;
     display: block;
