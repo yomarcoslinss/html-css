@@ -17,7 +17,7 @@ section {
     background-color: white;
     width: 250px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.536)
 
 }
@@ -30,7 +30,6 @@ section h1{
 section p{
     font-size: 0.8em;
     margin: 0.7em;
-    /* text-align: justify; */
 }
 
 #bg {
@@ -38,21 +37,40 @@ section p{
     background-image: url(../assets/bg.jpg);
     background-position: bottom left;
     background-size: cover;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
-#bg> img {
-    width: 300px;
-    background-size: cover;
-}
 
 input {
     background-color: #94CFCD;
-    padding: 4px;
-    display: block;
+    padding: 10px 15px;
+    display: inline;
     margin: auto;
-    margin-bottom: 5px;
     border-radius: 6px;
     border: none;
 }
+
+.borda {
+    display: block;
+    margin: auto;
+    background-color: #5F2C82;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+
+
+
+#person {
+    padding: 8px;
+    display: inline-block;
+    color: whitesmoke;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48
+}
+
 
