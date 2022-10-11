@@ -45,7 +45,6 @@ input {
     background-color: #94CFCD;
     text-align: initial;
     padding: 13px 18px;
-    margin-top: -500px;
     display: inline;
     position: relative;
     top: -12%;
@@ -68,7 +67,7 @@ input::placeholder{
     background-color: #5F2C82;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
     border-radius: 8px;
 }
 
