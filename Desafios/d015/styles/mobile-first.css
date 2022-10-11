@@ -24,7 +24,7 @@ section {
 
 section h1{
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
 
 section p{
@@ -43,14 +43,19 @@ section p{
 
 input {
     background-color: #94CFCD;
-    padding: 10px 15px;
+    text-align: initial;
+    padding: 13px 18px;
+    margin-top: -500px;
     display: inline;
-    margin: auto;
+    position: relative;
+    top: -12%;
+    left: 4%;
     border-radius: 6px;
     border: none;
 }
 
 .borda {
+    height: 50px;
     display: block;
     margin: auto;
     background-color: #5F2C82;
@@ -63,7 +68,7 @@ input {
 
 
 #person {
-    padding: 8px;
+    padding: 13px 0px 0px 8px ;
     display: inline-block;
     color: whitesmoke;
     font-variation-settings:
